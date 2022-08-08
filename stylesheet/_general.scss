@@ -1,0 +1,131 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #3a4a4f;
+    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0rem 3rem;
+    margin: 0 auto;
+}
+
+.card-header {
+    border-top: 4px solid rgb(113, 194, 217);
+    border-radius: 2px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    background: #fff;
+    padding: 1rem;
+}
+
+.card {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card-item {
+    background: #fff;
+    padding: 1rem;
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        color: rgb(50, 86, 111);
+    }
+    a {
+        color: rgb(250, 68, 67);
+    }
+}
+
+.item-2 {
+    grid-row: span 3;
+    img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    p {
+        margin-top: 2rem;
+    }
+}
+
+.item-3 {
+    padding: 0;
+    h3 {
+        padding-left: 1rem;
+    }
+    p {
+        padding-left: 1rem;
+    }
+    .learn-more {
+        background: rgb(250, 66, 59);
+        width: 100%;
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.item-4 {
+    grid-row: span 2;
+    display: grid;
+    align-content: center;
+    img {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
+
+.item-5 {
+    padding: 0;
+    h3 {
+        background: rgb(0, 149, 190);
+        color: #fff;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    p {
+        padding-left: 1rem;
+    }
+    a {
+        // margin-top: 10px;
+        padding-left: 1rem;
+    }
+}
